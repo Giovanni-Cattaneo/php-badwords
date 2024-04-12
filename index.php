@@ -1,5 +1,6 @@
 <?php 
 
+var_dump($_GET)
 
 
 ?>
@@ -13,5 +14,11 @@
 </head>
 <body>
     <h1>Ciao</h1>
+
+    <form action="script.php" method="post">
+        <input type="text" name="phrase" placeholder="Inserisci una frase">
+        <input type="text" name="badWord" placeholder="Inserisci una volgarità">
+        <button type="submit">Invia</button>
+    </form>
 </body>
 </html>
