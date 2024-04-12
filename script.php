@@ -14,6 +14,9 @@ $censored = str_ireplace($badWord, $censorSymbol, $phrase); // con str_ireplace 
 
 $censoredLength = strlen($censored);
 
+echo "<p>Frase: $phrase</p>";
+echo "<p>Lunghezza della Frase: $phraseLength caratteri</p>";  //con echo buttiamo in template i risulatti della frase
+
 echo "<p>Frase: $censored</p>";
 echo "<p>Lunghezza della Frase: $phraseLength caratteri</p>";  //con echo buttiamo in template i risulatti della frase
 
