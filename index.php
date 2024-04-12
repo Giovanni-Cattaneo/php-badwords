@@ -17,7 +17,7 @@ var_dump($_GET)
 
     <form action="script.php" method="post">
         <input type="text" name="phrase" placeholder="Inserisci una frase">
-        <input type="text" name="badWord" placeholder="Inserisci una volgarità">
+        <input type="text" name="badWord" placeholder="Inserisci la parola da censurare">
         <button type="submit">Invia</button>
     </form>
 </body>
